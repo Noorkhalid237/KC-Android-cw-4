@@ -1,0 +1,19 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        int temp = 20;
+        
+        temperature(temp);
+    }
+    
+    public static void temperature(int temp){
+        if (temp > 23){
+            System.out.println("Hot");
+        }else if (temp < 23){
+            System.out.println("Cold");
+        }
+  
+
+
+}
+}
